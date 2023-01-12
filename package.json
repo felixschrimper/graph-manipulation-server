@@ -1,0 +1,24 @@
+{
+  "name": "graph-manipulation-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --max-old-space-size=8192  ./index.js",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "2.8.5",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "gtfs": "https://github.com/felixschrimper/node-gtfs",
+    "nodemon": "^2.0.19"
+  }
+}
