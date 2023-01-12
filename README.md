@@ -2,9 +2,6 @@
 
 ## Project setup
 
-- Clone the repository
-- Change directory to client folder:
-
 - Install packages:
 
 ```sh
